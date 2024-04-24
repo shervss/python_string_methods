@@ -40,7 +40,9 @@ print ("\nPython String Methods:\n"
 # ask a number from the user
 choice = int(input("Enter the number of the string method you want to use: "))
 
-# ask string from the user
+# ask a string from the user
+string = input("Enter a string to apply the method to: ")
+
 # execute the chosen method 
 # print result
 # ask if the user wants to try again
