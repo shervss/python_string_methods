@@ -1,0 +1,1 @@
+# Purpose: A program that will allows users to explore and apply different string manipulation techniques in Python.
