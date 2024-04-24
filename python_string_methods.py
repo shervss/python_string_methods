@@ -38,6 +38,8 @@ print ("\nPython String Methods:\n"
        "33. chr() method\n")
 
 # ask a number from the user
+choice = int(input("Enter the number of the string method you want to use: "))
+
 # ask string from the user
 # execute the chosen method 
 # print result
