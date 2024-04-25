@@ -124,4 +124,6 @@ else:
        result = "Invalid choice!"
 
 # print result
+print("\nResult:", result)
+
 # ask if the user wants to try again
