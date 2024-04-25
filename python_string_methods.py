@@ -44,5 +44,84 @@ choice = int(input("Enter the number of the string method you want to use: "))
 string = input("Enter a string to apply the method to: ")
 
 # execute the chosen method 
+if choice == 1:
+       result = string.capitalize()
+elif choice == 2:
+       result = string.lstrip()
+elif choice == 3:
+       result = string.rstrip()
+elif choice == 4:
+       result = string.strip()
+elif choice == 5:
+       result = string.lower()
+elif choice == 6:
+       result = string.upper()
+elif choice == 7:
+       result = string.title()
+elif choice == 8:
+       result = string.swapcase()
+elif choice == 9:
+       width = int(input("Enter the width: "))
+       result = string.ljust(width)
+elif choice == 10:
+       width = int(input("Enter the width: "))
+       result = string.rjust(width)
+elif choice == 11:
+       width = int(input("Enter the width: "))
+       result = string.center(width)
+elif choice == 12:
+       width = int(input("Enter the width: "))
+       result = string.zfill(width)
+elif choice == 13:
+       substring = input("Enter the substring to find: ")
+       result = string.find(substring)
+elif choice == 14:
+       substring = input("Enter the substring to count: ")
+       result = string.count(substring)
+elif choice == 15:
+       substring = input("Enter the substring to check: ")
+       result = string.startswith(substring)
+elif choice == 16:
+       substring = input("Enter the substring to check: ")
+       result = string.endswith(substring)
+elif choice == 17:
+       result = string.isdigit()
+elif choice == 18:
+       result = string.isnumeric()
+elif choice == 19:
+       result = string.isdecimal()
+elif choice == 20:
+       result = string.isalpha()
+elif choice == 21:
+       result = string.isalnum()
+elif choice == 22:
+       result = string.islower()
+elif choice == 23:
+       result = string.isupper()
+elif choice == 24:
+       result = string.isspace()
+elif choice == 25:
+       substring = input("Enter the substring to find: ")
+       result = string.find(substring)
+elif choice == 26:
+       result = str(string)
+elif choice == 27:
+       result = len(string)
+elif choice == 28:
+       result = max(string)
+elif choice == 29:
+       result = min(string)
+elif choice == 30:
+       result = string.split()
+elif choice == 31:
+       substring = input("Enter the substring to find: ")
+       result = string.index(substring)
+elif choice == 32:
+       result = ord(string)
+elif choice == 33:
+       result = chr(int(string))
+else:
+       result = "Invalid choice!"
+
 # print result
 # ask if the user wants to try again
